@@ -3,7 +3,7 @@ package solitaire;
 public class Card {
     private final Suit suit;
     private final Rank rank;
-    private boolean isFaceUp;
+    boolean isFaceUp;
 
     public Card(Suit suit, Rank rank) {
         this.suit = suit;
